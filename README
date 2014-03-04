@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4884
+
+*pymatcher* is a replacement for standard fuzzy matcher provided with CtrlP
+because of its performance issues on huge projects. Tested on 350k files.
+Some queries causes |CtrlP|'s standard matcher freezes up to 15 seconds. This
+matcher provides ~700ms performance on the same hardware with same queries.
+Pull requests to improve above performance are much appreciated.
+
+Official repository:
+https://github.com/FelikZ/ctrlp-py-matcher
